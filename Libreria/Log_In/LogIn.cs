@@ -30,14 +30,11 @@ namespace Log_In
             conn = new SqlConnection(sCn);
         }
 
-        
-        //Controlador del timer
-        private int control = 1;
-
         //INDICACIONES AL INICIAR EL PROGRAMA
         private void Form1_Load(object sender, EventArgs e)
         {
             TimerLogInBackground.Start();
+            this.ActiveControl = null;
         }
 
         //PROGRAMACION DE BOTONES y timer
@@ -59,6 +56,39 @@ namespace Log_In
         {
             Application.Exit();
         }
+
+        //PROGRAMACION DE COMPORTAMIENTOS Y EVENTOS DEL FORMS
+        private void TxtUserCode_Enter(object sender, EventArgs e)
+        {
+            if(TxtUserCode.Text == "Ingrese su codigo de usuario")
+            {
+                TxtUserCode.Text = "";
+            }
+        }
+        private void TxtUserCode_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(TxtUserCode.Text))
+            {
+                TxtUserCode.Text = "Ingrese su codigo de usuario";
+            }
+        }
+        private void TxtPassword_Enter(object sender, EventArgs e)
+        {
+            if(TxtPassword.Text == "Ingrese su contraseña")
+            {
+                TxtPassword.Text = "";
+                TxtPassword.PasswordChar = '*';
+            }
+        }
+        private void TxtPassword_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(TxtPassword.Text))
+            {
+                TxtPassword.Text = "Ingrese su contraseña";
+                TxtPassword.PasswordChar = '\0';
+            }
+        }
+        private int control = 1; 
         private void TimerLogInBackground_Tick(object sender, EventArgs e)
         {
             if (control == 1)
@@ -79,7 +109,6 @@ namespace Log_In
         }
 
         // METODOS DE LOG IN
-
         private void ProcLogIn(string CodUser, string Contraseña)
         {
             try

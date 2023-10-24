@@ -33,7 +33,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.TxtUserName = new System.Windows.Forms.TextBox();
             this.TxtUserGmail = new System.Windows.Forms.TextBox();
             this.TxtUserPhoneNumber = new System.Windows.Forms.TextBox();
             this.TxtUserDUI = new System.Windows.Forms.TextBox();
@@ -43,6 +42,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.BtnCloseWindow = new System.Windows.Forms.Button();
+            this.TxtUserName = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,14 +70,6 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Name = "label4";
             // 
-            // TxtUserName
-            // 
-            this.TxtUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
-            this.TxtUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.TxtUserName, "TxtUserName");
-            this.TxtUserName.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.TxtUserName.Name = "TxtUserName";
-            // 
             // TxtUserGmail
             // 
             this.TxtUserGmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
@@ -85,6 +77,7 @@
             resources.ApplyResources(this.TxtUserGmail, "TxtUserGmail");
             this.TxtUserGmail.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtUserGmail.Name = "TxtUserGmail";
+            this.TxtUserGmail.TabStop = false;
             // 
             // TxtUserPhoneNumber
             // 
@@ -93,6 +86,8 @@
             resources.ApplyResources(this.TxtUserPhoneNumber, "TxtUserPhoneNumber");
             this.TxtUserPhoneNumber.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtUserPhoneNumber.Name = "TxtUserPhoneNumber";
+            this.TxtUserPhoneNumber.TabStop = false;
+            this.TxtUserPhoneNumber.TextChanged += new System.EventHandler(this.TxtUserPhoneNumber_TextChanged);
             // 
             // TxtUserDUI
             // 
@@ -101,6 +96,8 @@
             resources.ApplyResources(this.TxtUserDUI, "TxtUserDUI");
             this.TxtUserDUI.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtUserDUI.Name = "TxtUserDUI";
+            this.TxtUserDUI.TabStop = false;
+            this.TxtUserDUI.TextChanged += new System.EventHandler(this.TxtUserDUI_TextChanged);
             // 
             // BtnContinueRg
             // 
@@ -153,18 +150,27 @@
             this.BtnCloseWindow.UseVisualStyleBackColor = true;
             this.BtnCloseWindow.Click += new System.EventHandler(this.BtnCloseWindow_Click);
             // 
+            // TxtUserName
+            // 
+            this.TxtUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
+            this.TxtUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.TxtUserName, "TxtUserName");
+            this.TxtUserName.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.TxtUserName.Name = "TxtUserName";
+            this.TxtUserName.TabStop = false;
+            // 
             // Registro
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(25)))), ((int)(((byte)(28)))));
+            this.Controls.Add(this.TxtUserName);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BtnContinueRg);
             this.Controls.Add(this.TxtUserDUI);
             this.Controls.Add(this.TxtUserPhoneNumber);
             this.Controls.Add(this.TxtUserGmail);
-            this.Controls.Add(this.TxtUserName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -184,7 +190,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox TxtUserName;
         private System.Windows.Forms.TextBox TxtUserGmail;
         private System.Windows.Forms.TextBox TxtUserPhoneNumber;
         private System.Windows.Forms.TextBox TxtUserDUI;
@@ -194,5 +199,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnCloseWindow;
+        private System.Windows.Forms.TextBox TxtUserName;
     }
 }

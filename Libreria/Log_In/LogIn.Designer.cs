@@ -163,9 +163,12 @@
             this.TxtPassword.Location = new System.Drawing.Point(56, 329);
             this.TxtPassword.Multiline = true;
             this.TxtPassword.Name = "TxtPassword";
-            this.TxtPassword.Size = new System.Drawing.Size(311, 30);
+            this.TxtPassword.Size = new System.Drawing.Size(311, 25);
             this.TxtPassword.TabIndex = 2;
+            this.TxtPassword.TabStop = false;
             this.TxtPassword.Text = "Ingrese su contraseña";
+            this.TxtPassword.Enter += new System.EventHandler(this.TxtPassword_Enter);
+            this.TxtPassword.Leave += new System.EventHandler(this.TxtPassword_Leave);
             // 
             // TxtUserCode
             // 
@@ -176,9 +179,12 @@
             this.TxtUserCode.Location = new System.Drawing.Point(56, 262);
             this.TxtUserCode.Multiline = true;
             this.TxtUserCode.Name = "TxtUserCode";
-            this.TxtUserCode.Size = new System.Drawing.Size(311, 30);
+            this.TxtUserCode.Size = new System.Drawing.Size(311, 25);
             this.TxtUserCode.TabIndex = 1;
+            this.TxtUserCode.TabStop = false;
             this.TxtUserCode.Text = "Ingrese su codigo de usuario";
+            this.TxtUserCode.Enter += new System.EventHandler(this.TxtUserCode_Enter);
+            this.TxtUserCode.Leave += new System.EventHandler(this.TxtUserCode_Leave);
             // 
             // Title
             // 

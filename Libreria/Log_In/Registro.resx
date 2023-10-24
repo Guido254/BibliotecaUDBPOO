@@ -249,44 +249,20 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="TxtUserName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Dubai, 9.749999pt</value>
-  </data>
-  <data name="TxtUserName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 350</value>
-  </data>
-  <data name="TxtUserName.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TxtUserName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 20</value>
-  </data>
-  <data name="TxtUserName.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TxtUserName.Name" xml:space="preserve">
-    <value>TxtUserName</value>
-  </data>
-  <data name="&gt;&gt;TxtUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtUserName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TxtUserName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="TxtUserGmail.Font" type="System.Drawing.Font, System.Drawing">
     <value>Dubai, 9.749999pt</value>
   </data>
   <data name="TxtUserGmail.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 417</value>
   </data>
+  <data name="TxtUserGmail.MaxLength" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
   <data name="TxtUserGmail.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="TxtUserGmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 20</value>
+    <value>280, 25</value>
   </data>
   <data name="TxtUserGmail.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -301,7 +277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TxtUserGmail.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="TxtUserPhoneNumber.Font" type="System.Drawing.Font, System.Drawing">
     <value>Dubai, 9.749999pt</value>
@@ -309,11 +285,14 @@
   <data name="TxtUserPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 483</value>
   </data>
+  <data name="TxtUserPhoneNumber.MaxLength" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="TxtUserPhoneNumber.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="TxtUserPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 20</value>
+    <value>280, 25</value>
   </data>
   <data name="TxtUserPhoneNumber.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -328,7 +307,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TxtUserPhoneNumber.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="TxtUserDUI.Font" type="System.Drawing.Font, System.Drawing">
     <value>Dubai, 9.749999pt</value>
@@ -336,11 +315,14 @@
   <data name="TxtUserDUI.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 552</value>
   </data>
+  <data name="TxtUserDUI.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
   <data name="TxtUserDUI.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="TxtUserDUI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 20</value>
+    <value>280, 25</value>
   </data>
   <data name="TxtUserDUI.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -355,7 +337,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TxtUserDUI.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="BtnContinueRg.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -385,7 +367,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnContinueRg.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -418,6 +400,63 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnCloseWindow.Name" xml:space="preserve">
+    <value>BtnCloseWindow</value>
+  </data>
+  <data name="&gt;&gt;BtnCloseWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCloseWindow.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BtnCloseWindow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 36</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
@@ -513,25 +552,34 @@
   <data name="&gt;&gt;BtnCloseWindow.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="TxtUserName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Dubai, 9.749999pt</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>375, 36</value>
+  <data name="TxtUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 350</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+  <data name="TxtUserName.MaxLength" type="System.Int32, mscorlib">
+    <value>70</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="TxtUserName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TxtUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 25</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="TxtUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;TxtUserName.Name" xml:space="preserve">
+    <value>TxtUserName</value>
+  </data>
+  <data name="&gt;&gt;TxtUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtUserName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TxtUserName.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

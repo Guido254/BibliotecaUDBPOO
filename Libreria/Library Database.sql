@@ -53,7 +53,7 @@ CREATE TABLE [Usuarios] (
   [nombre_usuario] nvarchar(255),
   [contraseña] nvarchar(255),
   [correo] nvarchar(255),
-  [telefono] nvarchar(255),
+  [telefono] nvarchar(9),
   [DUI] nvarchar(10),
   [posicion] nvarchar(255)  
 )

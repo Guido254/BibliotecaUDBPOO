@@ -26,26 +26,8 @@ namespace Log_In
             conn = new SqlConnection(sCn);
         }
 
-        //INDICACIONES AL INICIAR EL PROGRAMA
-        private void Registro2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         //PROGRAMACION DE BOTONES
-        private void BtnCloseWindow_Click(object sender, EventArgs e)
-        {
-            LogIn returnLogIn = new LogIn();
-            returnLogIn.Show();
-            this.Close();
-        }
-        private void BtnRegresarRg1_Click(object sender, EventArgs e)
-        {
-            Registro returnReg1 = new Registro();
-            returnReg1.Show();
-            this.Hide();
-        }
-
+        
         private void BtnTypeUser_Admin_Click(object sender, EventArgs e)
         {
 
@@ -73,7 +55,6 @@ namespace Log_In
                 MessageBox.Show("Tiene que llenar todas las tablas antes de continuar");
             }
         }
-
         private void BtnTypeUser_Employee_Click(object sender, EventArgs e)
         {
             if (TxtGetPassword.Text != "" && TxtConfirmPassword.Text != "")
@@ -98,6 +79,18 @@ namespace Log_In
             {
                 MessageBox.Show("Tiene que llenar todas las tablas antes de continuar");
             }
+        }
+        private void BtnCloseWindow_Click(object sender, EventArgs e)
+        {
+            LogIn returnLogIn = new LogIn();
+            returnLogIn.Show();
+            this.Close();
+        }
+        private void BtnRegresarRg1_Click(object sender, EventArgs e)
+        {
+            Registro returnReg1 = new Registro();
+            returnReg1.Show();
+            this.Hide();
         }
 
         //METODO DE ASIGNAR CODIGO USUARIO

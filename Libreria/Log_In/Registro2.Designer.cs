@@ -78,9 +78,10 @@
             this.TxtConfirmPassword.Font = new System.Drawing.Font("Dubai", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtConfirmPassword.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtConfirmPassword.Location = new System.Drawing.Point(45, 424);
+            this.TxtConfirmPassword.MaxLength = 12;
             this.TxtConfirmPassword.Multiline = true;
             this.TxtConfirmPassword.Name = "TxtConfirmPassword";
-            this.TxtConfirmPassword.Size = new System.Drawing.Size(280, 20);
+            this.TxtConfirmPassword.Size = new System.Drawing.Size(280, 25);
             this.TxtConfirmPassword.TabIndex = 17;
             // 
             // label4
@@ -158,9 +159,10 @@
             this.TxtGetPassword.Font = new System.Drawing.Font("Dubai", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtGetPassword.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtGetPassword.Location = new System.Drawing.Point(45, 357);
+            this.TxtGetPassword.MaxLength = 12;
             this.TxtGetPassword.Multiline = true;
             this.TxtGetPassword.Name = "TxtGetPassword";
-            this.TxtGetPassword.Size = new System.Drawing.Size(280, 20);
+            this.TxtGetPassword.Size = new System.Drawing.Size(280, 25);
             this.TxtGetPassword.TabIndex = 16;
             // 
             // label3
@@ -236,7 +238,6 @@
             this.Name = "Registro2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro2";
-            this.Load += new System.EventHandler(this.Registro2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
